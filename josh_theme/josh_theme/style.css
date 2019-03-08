@@ -1,0 +1,97 @@
+.navbar{
+font-size:0.875em;/*since we have set the body font-size to 16px this can also be written as 1em, so if we want our navbar menu items to be smaller as per the design comp it needs to be less than 1em, the formula is 14(the size of the font in photoshop)divided by 16 which equals 0.875em*/
+
+}
+a{
+color: #fff;
+}
+
+a:hover{
+color: #ed7d1e;
+}
+
+.navbar-nav li a:hover {
+    
+background-color:transparent;
+}
+
+
+.navbar-nav li a:hover {
+    
+background-color:transparent;
+}
+
+.orange{
+color:darkorange;    
+}
+
+.navbar{
+   font-size:0.875em;
+   margin-bottom:0px;
+}
+
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+.body{
+    background-color:#3f3948;  
+    font-size:16px;
+font-family: arial,sans-serif;
+
+}
+
+.herobg{
+    background-color: purple;
+    height: 700px;
+}
+
+.herobg h1{
+   float:right; /* float the text to the right*/
+    color:#ffff;/* make the text white*/
+    width:341px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:7.125em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    letter-spacing: -10px;/* fix the letter-spacing*/
+    font-weight: 800;/* make the text bold*/
+    line-height:75%;/* decrease the line height*/
+    margin-top:140px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:right;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+.maincontainer{
+    background-color: skyblue;
+
+}
+
+.maintext{
+    background-color: yellow
+    height: 650px;
+}
+
+.sidebar{
+    background-color: forestgreen;
+    height: 650px;
+}
+
+
+.footerbg{
+    background-color: floralwhite;
+    height: 150px;
+}
+
+
+.leftfoot{
+    background-color: coral;
+    
+}
+
+.rightfoot{
+    background-color: indianred;
+   
+}
